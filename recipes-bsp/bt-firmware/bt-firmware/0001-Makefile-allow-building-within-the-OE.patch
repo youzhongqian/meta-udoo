@@ -7,6 +7,6 @@ Index: git/Makefile
  install:
  	install -d $(DEST_DIR)${BASE_LIB_DIR}/firmware
 -	cp -f ./${MACHINE_NAME}/* $(DEST_DIR)${BASE_LIB_DIR}/firmware
-+	cp -f ./initscripts/* $(DEST_DIR)${BASE_LIB_DIR}/firmware
++	cp -f ./initscripts/* $(DEST_DIR)${BASE_LIB_DIR}/firmware/ti-connectivity
  
  

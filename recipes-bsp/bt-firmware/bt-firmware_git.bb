@@ -26,7 +26,7 @@ do_configure() {
 
 
 do_install() {
-    install -d ${D}${base_libdir}/firmware
+    install -d ${D}${base_libdir}/firmware/ti-connectivity
     oe_runmake 'DEST_DIR=${D}' 'BASE_LIB_DIR=${base_libdir}' install
 }
 
