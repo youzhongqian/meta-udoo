@@ -1,6 +1,6 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
-COMPATIBLE_MACHINE = "(udooqdl|udooneo|secosbca62)"
+COMPATIBLE_MACHINE = "(udooneo)"
 
 SRC_URI += " \
     file://0001-UDOO-Quad-Dual-support.patch \
