@@ -33,6 +33,6 @@ SRCREV = "cf537d006806d4dbf78178b02344e13098a06f2b"
 
 # This hack is needed because of the
 # backports subdir in the kernel source
-#B = "${S}"
+B = "${S}"
 
 COMPATIBLE_MACHINE = "(udooneo)"
